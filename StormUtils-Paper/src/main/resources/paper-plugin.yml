@@ -1,0 +1,7 @@
+name: "StormUtils"
+version: "${project.parent.version}"
+main: "net.onestorm.plugins.stormutils.paper.StormUtils"
+api-version: "1.20"
+authors:
+  - OneStorm.net
+  - Sheepert_

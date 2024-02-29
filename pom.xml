@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>net.onestorm.plugins</groupId>
+    <artifactId>stormutils</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>StormUtils-API</module>
+        <module>StormUtils-Core</module>
+        <module>StormUtils-Paper</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <repositories>
+        <repository>
+            <id>onestorm</id>
+            <url>https://repo.onestorm.net/repository/maven-public</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>net.onestorm.library</groupId>
+            <artifactId>stormlibrary-username</artifactId>
+            <version>1.3.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>net.onestorm.library</groupId>
+            <artifactId>stormlibrary-user</artifactId>
+            <version>1.3.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>net.onestorm.library</groupId>
+            <artifactId>stormlibrary-action</artifactId>
+            <version>1.3.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>net.onestorm.library</groupId>
+            <artifactId>stormlibrary-requirement</artifactId>
+            <version>1.3.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>net.onestorm.library</groupId>
+            <artifactId>stormlibrary-configuration</artifactId>
+            <version>1.3.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+
+</project>
