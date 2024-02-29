@@ -42,4 +42,4 @@ jobs:
       - name: Rsync deploy mvn paper repo
         run: rsync -r --quiet StormUtils-Paper/target/mvn-repo/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/web/www/repo.onestorm.net/public/repository/maven-public/
       - name: Rsync deploy final artifact
-        run: rsync -r --quiet --mkpath target/StormUtils-*.jar ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/web/www/repo.onestorm.net/public/downloads/StormUtils/
+        run: rsync -r --quiet --mkpath StormUtils-Paper/target/StormUtils-*.jar ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/web/www/repo.onestorm.net/public/downloads/StormUtils/
